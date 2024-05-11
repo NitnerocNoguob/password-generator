@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="supra-container">
+            <div id="container">
+                <div id="hero">
+                    <h1>Generate a <br><span id="colored-text">random password</span></h1>
+                    <h2>Never use an insecure password again.</h2>
+                    <div id="password-generator">
+                        <button onclick="generatePassword()">Generate passwords</button>
+                        <div id="password-checkbox">
+                            <input type="checkbox" id="toggle" onclick="switchArray()">
+                            <label for="toggle">Toggle symbols/numbers</label>
+                        </div>
+                    </div>
+                    <div id="password-display">
+                        <div class="password-background">
+                            <p class="password first-password"></p>
+                        </div>
+                        <div class="password-background">
+                            <p class="password second-password"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

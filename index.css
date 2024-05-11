@@ -1,0 +1,109 @@
+@font-face {
+    font-family:"Inter";
+    src: url("./Inter-VariableFont_slnt,wght.ttf")
+}
+
+@font-face {
+    font-family: "Karla"; 
+    src: url("./Karla-VariableFont_wght.ttf")
+}
+
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+
+#supra-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#container {
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+}
+
+#hero {
+    padding: 80px 50px;
+}
+
+#hero h1 {
+    font-family: "Karla", serif; 
+    font-size: 40px;  
+    line-height: 40px; 
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+#colored-text {
+    color: #10B981;    
+}
+
+#hero h2 {
+    color: #D5D4D8;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 10px 0 60px 0;
+    font-weight: 400;
+}
+
+#password-generator{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero button {
+    background: #10B981;
+    color: #FFFFFF;
+    font-weight: 500;
+    width: 191px;
+    height: 42px;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    border: none;
+}
+
+#hero input {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    width: 20px; 
+    height: 20px;
+    border: 1px solid #D5D4D8; 
+    border-radius: 3px;
+    outline: none;
+    transform: translateY(0.25em);
+}
+
+#hero input:checked {
+    background-color: #10B981; 
+}
+
+#hero label {
+    color: #D5D4D8;   
+    font-weight: 500 
+}
+
+#password-display {
+    border-top: 1px solid #273549;  
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between
+}
+
+.password {
+    background: #273549;
+    color: #10B981;
+    width: 211px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 6px;
+}
